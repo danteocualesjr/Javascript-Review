@@ -24,3 +24,13 @@ console.log(2011);
 console.log("Woohoo! I love to code! #codecademy");
 console.log(20.49);
 
+// ARITHMETIC OPERATORS
+
+// My age when people will start living on Mars
+console.log(40 + 3.5);
+// Number of years since the Moon landing
+console.log(2021 - 1969); 
+// Division
+console.log(65 / 240);
+// Multiplication
+console.log(0.2708 * 100);
