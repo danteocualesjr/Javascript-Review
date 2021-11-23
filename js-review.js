@@ -1,7 +1,11 @@
+// CONSOLE
+
 console.log(333);
 comsole.log("Hello world");
 
 // I am making a comment here
+
+// COMMENTS
 
 // Opening line
 console.log('It was love at first sight.');
@@ -12,3 +16,11 @@ console.log('The doctors were puzzled by the fact that it wasn\'t quite jaundice
 console.log('If it became jaundice they could treat it.');
 console.log('If it didn\'t become jaundice and went away they could discharge him.');
 console.log('But this just being short of jaundice all the time confused them.'); */
+
+// DATA TYPES
+
+console.log("JavaScript");
+console.log(2011);
+console.log("Woohoo! I love to code! #codecademy");
+console.log(20.49);
+
