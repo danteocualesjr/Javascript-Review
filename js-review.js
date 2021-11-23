@@ -1,3 +1,5 @@
+// A. INTRODUCTION TO JAVASCRIPT
+
 // CONSOLE
 
 console.log(333);
@@ -48,3 +50,6 @@ console.log('    Remove whitespace   '.trim());
 console.log(Math.floor(Math.random() * 100));
 console.log(Math.ceil(43.8));
 console.log(Number.isInteger(2017));
+
+// B. VARIABLES
+
