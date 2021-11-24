@@ -95,3 +95,16 @@ console.log('The value of levelUp:', levelUp);
 console.log('The value of powerLevel:', powerLevel); 
 console.log('The value of multiplyMe:', multiplyMe); 
 console.log('The value of quarterMe:', quarterMe);
+
+// INCREMENT AND DECREMENT OPERATORS
+
+let gainedDollar = 3;
+let lostDollar = 50;
+
+gainedDollar++;
+lostDollar--;
+
+// STRING CONCATENATION WITH VARIABLES
+
+let favoriteAnimal = 'dog';
+console.log('My favorite animal: ' + favoriteAnimal);
