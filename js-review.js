@@ -127,3 +127,25 @@ let myAge = 40;
 console.log(`My name is ${myName} and I am ${myAge}.`);
 
 console.log(typeof myAge);
+
+// DOG YEARS PROJECT
+
+// Variable that stores my age value
+let myAge = 40; 
+// Variable that stores the dog's early years
+let earlyYears = 2;
+// Multiplying the first 2 years by 10.5 and storing the value in earlyYears
+earlyYears *= 10.5;
+// Deducting the first 2 years from the rest of the years or laterYears
+let laterYears = myAge - 2;
+// Multiplying the later years by 4
+laterYears *= 4
+
+// Human age in dog years
+let myAgeInDogYears = earlyYears + laterYears;
+
+// This string returns the string in lower case
+let myName = 'Dante'.toLowerCase();
+
+// Logging a statement about my name, human age, and dog age
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
