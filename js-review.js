@@ -53,3 +53,25 @@ console.log(Number.isInteger(2017));
 
 // B. VARIABLES
 
+/* var myName = 'Dante';
+console.log(myName); */
+
+var favoriteFood = 'pizza';
+var numOfSlices = 8;
+console.log(favoriteFood);
+console.log(numOfSlices);
+
+/* let meal = 'Pasta';
+console.log(meal);
+meal = 'Salad';
+console.log(meal); */
+
+/* let price;
+console.log(price);
+price = 33;
+console.log(price); */
+
+let changeMe = true;
+changeMe = false;
+console.log(changeMe);
+
