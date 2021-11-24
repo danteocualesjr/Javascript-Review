@@ -108,3 +108,9 @@ lostDollar--;
 
 let favoriteAnimal = 'dog';
 console.log('My favorite animal: ' + favoriteAnimal);
+
+// STRING INTERPOLATION
+
+let myName = 'Dante';
+let myCity = 'Los Angeles';
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
