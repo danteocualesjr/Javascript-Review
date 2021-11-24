@@ -114,3 +114,16 @@ console.log('My favorite animal: ' + favoriteAnimal);
 let myName = 'Dante';
 let myCity = 'Los Angeles';
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+
+// TYPEOF OPERATOR
+
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+newVariable = 1;
+console.log(typeof newVariable);
+
+let myName = 'Dante';
+let myAge = 40;
+console.log(`My name is ${myName} and I am ${myAge}.`);
+
+console.log(typeof myAge);
