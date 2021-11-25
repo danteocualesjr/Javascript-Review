@@ -171,3 +171,25 @@ if(sale) {
 } else {
   console.log('Time to wait for a sale.');
 }
+
+// COMPARISON OPERATORS
+
+let hungerLevel = 2;
+
+if (hungerLevel > 7) {
+  console.log('Time to eat!')
+} else {
+  console.log('We can eat later!')
+}
+
+// LOGICAL OPERATORS
+
+let mood = 'sleepy';
+let tirednessLevel = 6;
+
+if (mood === 'sleepy' && tirednessLevel > 8) {
+  console.log('Time to sleep');
+} else {
+  console.log('Not bed time yet');
+}
+
