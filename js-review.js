@@ -193,3 +193,69 @@ if (mood === 'sleepy' && tirednessLevel > 8) {
   console.log('Not bed time yet');
 }
 
+// TRUTHY AND FALSY
+
+let wordCount = 1;
+
+if (wordCount) {
+  console.log("Great! You've started your work!");
+} else {
+  console.log('Better get to work!');
+}
+
+
+let favoritePhrase = '';
+
+if (favoritePhrase) {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
+}
+
+// TRUTHY AND FALSY ASSIGNMENT
+
+let tool = '';
+tool = 'marker';
+
+// Use short circuit evaluation to assign  writingUtensil variable below:
+let writingUtensil = tool || 'pen';
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);
+
+// TERNARY OPERATOR
+
+let isLocked = false;
+
+if (isLocked) {
+  console.log('You will need a key to open the door.');
+} else {
+  console.log('You will not need a key to open the door.');
+}
+
+// Refactoring the first if-else statement above using a ternary operator:
+
+isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.')
+
+let isCorrect = true;
+
+if (isCorrect) {
+  console.log('Correct!');
+} else {
+  console.log('Incorrect!');
+}
+
+// Refactoring the second if-else statement above using a ternary operator:
+
+isCorrect ? console.log('Correct!') : console.log('Incorrect!');
+
+let favoritePhrase = 'Love That!';
+
+if (favoritePhrase === 'Love That!') {
+  console.log("I love that!");
+} else {
+  console.log("I don't love that!");
+}
+
+// Refactoring the third if-else statement above using a ternary operator:
+
+favoritePhrase === 'Love That!' ? console.log("I love that!") : console.log("I don't love that!");
