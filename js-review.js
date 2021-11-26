@@ -279,3 +279,25 @@ if (season === 'spring') {
   console.log('Invalid season.');
 }
 
+// THE SWITCH KEYWORD
+
+// Writing a Switch statement -- it's an alternative if there are too many else-if statements
+
+let athleteFinalPosition = 'first place';
+
+switch (athleteFinalPosition) {
+  case 'first place' :
+    console.log('You get the gold medal!');
+    break;
+  case 'second place' :
+    console.log('You get the silver medal!');
+    break;
+  case 'third place' :
+    console.log('You get the bronze medal!');
+    break;
+  default:
+    console.log('No medal awarded.');
+    break;
+}
+
+
