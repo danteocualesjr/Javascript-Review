@@ -295,9 +295,29 @@ switch (athleteFinalPosition) {
   case 'third place' :
     console.log('You get the bronze medal!');
     break;
-  default:
+  default :
     console.log('No medal awarded.');
     break;
 }
 
+// Switch heyword practice
 
+let engineeringJob = 'Web3 Developer';
+  
+switch (engineeringJob) {
+  case 'Frontend Developer' : 
+    console.log('You\'re now a Frontend Developer!');
+    break;
+  case 'Backend Developer' : 
+    console.log('You\'re now a Backend Developer!');
+    break;
+  case 'Fullstack Developer' : 
+    console.log('You\'re now a Fullstack Developer!');
+    break;
+  case 'Web3 Developer' : 
+    console.log('You\'re now a Web3/Blockchain Developer!');
+    break;  
+  default :
+    console.log('You didn\'t get the engineering Job.');
+    break;
+}
