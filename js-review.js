@@ -263,8 +263,8 @@ favoritePhrase === 'Love That!' ? console.log("I love that!") : console.log("I d
 // ELSE IF STATEMENTS
 
 let season = 'winter';
-season = 'fall';
-season = 'summer'
+//season = 'fall';
+//season = 'summer'
 
 if (season === 'spring') {
   console.log('It\'s spring! The trees are budding!');
