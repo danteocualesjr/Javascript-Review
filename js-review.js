@@ -232,6 +232,14 @@ if (isLocked) {
   console.log('You will not need a key to open the door.');
 }
 
+let isWeekend = true;
+
+if (isWeekend) {
+  console.log('It\'s the weekend!');
+} else {
+  console.log('Work day, so work it!');
+}
+
 // Refactoring the first if-else statement above using a ternary operator:
 
 isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.')
