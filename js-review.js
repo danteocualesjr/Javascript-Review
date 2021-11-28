@@ -300,6 +300,16 @@ if (season === 'spring') {
   console.log('Invalid season.');
 }
 
+let jobTitle = '';
+
+if (jobTitle === 'Frontend Developer') {
+  console.log('You are a frontend dev.');
+} else if (jobTitle === 'Backend Developer') {
+  console.log('You are a backend dev');
+} else {
+  console.log('Are you a Web3 dev?');
+}
+
 // THE SWITCH KEYWORD
 
 // Writing a Switch statement -- it's an alternative if there are too many else-if statements
