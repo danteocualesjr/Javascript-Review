@@ -207,7 +207,7 @@ if (wordCount) {
 let favoritePhrase = '';
 
 if (favoritePhrase) {
-  console.log("This string doesn't seem to be empty.");
+  console.log('This string doesn\'t seem to be empty.');
 } else {
   console.log('This string is definitely empty.');
 }
@@ -267,6 +267,19 @@ if (favoritePhrase === 'Love That!') {
 // Refactoring the third if-else statement above using a ternary operator:
 
 favoritePhrase === 'Love That!' ? console.log("I love that!") : console.log("I don't love that!");
+
+// EXERCISE: REFACTOR IF-ELSE STATEMENT USING A TERNARY OPERATOR
+
+let myCompany = 'Notion';
+
+if (myCompany === 'Notion') {
+  console.log('I\'m from Notion.');
+} else {
+  console.log('I\'m not from Notion.');
+}
+
+myCompany === 'Notion' ? console.log('I\'m from Notion.') : console.log('I\'m not from Notion.');
+
 
 // ELSE IF STATEMENTS
 
