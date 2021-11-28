@@ -331,7 +331,26 @@ switch (athleteFinalPosition) {
     break;
 }
 
-// Switch heyword practice
+// Switch keyword practice
+
+let yourCompany = 'Amazon';
+
+switch (yourCompany) {
+  case 'Stripe' :
+    console.log('You\'re from Stripe.');
+    break;
+  case 'Notion' :
+    console.log('You\'re from Notion.');
+    break;
+  case 'BloomTech' :
+    console.log('You\'re from BloomTech.');
+    break;
+  default :
+    console.log('From which company are you from?');
+    break;
+}
+
+// Switch keyword practice
 
 let engineeringJob = 'Web3 Developer';
   
