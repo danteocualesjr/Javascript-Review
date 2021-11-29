@@ -48,3 +48,13 @@ function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs'){
 
 makeShoppingList(); // The default values will be logged
 makeShoppingList('juice', 'veggies', 'fruits'); // The specified values will be logged
+
+// The Return keyword
+
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+const numOfMonitors = monitorCount(5, 4);
+
+console.log(numOfMonitors);
