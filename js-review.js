@@ -280,6 +280,9 @@ if (myCompany === 'Notion') {
 
 myCompany === 'Notion' ? console.log('I\'m from Notion.') : console.log('I\'m not from Notion.');
 
+// Exercise: Creating a ternary operator
+
+myBoss === 'Paul Graham' ? console.log('My boss is PG.') : console.log('My boss is someone else.');
 
 // ELSE IF STATEMENTS
 
