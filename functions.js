@@ -36,7 +36,15 @@ function myFounder(name) {
   console.log(`My founder is ${name}.`);
 }
 
-myFounder('Paul Graham');
+myFounder();
+
+// Parameters and arguments: Creating a function with a parameter and then calling that function
+
+function myJob(job) {
+  console.log(`My job title is ${job}.`);
+}
+
+myJob('Blockchain Developer');
 
 // Default parameters
 
