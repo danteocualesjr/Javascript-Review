@@ -58,3 +58,9 @@ function monitorCount(rows, columns) {
 const numOfMonitors = monitorCount(5, 4);
 
 console.log(numOfMonitors);
+
+function computeRectangle(width, height) {
+  return width * height;
+}
+
+console.log(computeRectangle);
