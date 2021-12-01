@@ -129,3 +129,11 @@ const functionName = parameterOne => {};
 // Multiple parameters
 
 const functionName = (parameterOne, parameterTwo) => {};
+
+// Refactoring an arrow function into a single line
+
+const plantNeedsWater = (day) => {
+  return day === 'Wednesday' ? true : false;
+};
+
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
