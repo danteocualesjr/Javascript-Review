@@ -104,3 +104,14 @@ const plantNeedsWater = function(day) {
 
 console.log(plantNeedsWater('Tuesday'));
 
+// Refactoring a regular function into an arrow function
+
+const plantNeedsWater = function(day) {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+const plantNeedsWater = (day) => {};
