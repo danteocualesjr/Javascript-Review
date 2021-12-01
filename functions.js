@@ -115,3 +115,17 @@ const plantNeedsWater = function(day) {
 };
 
 const plantNeedsWater = (day) => {};
+
+// Different ways to refactor arrow functions
+
+// Zero parameters
+
+const functionName = () => {};
+
+// One parameter
+
+const functionName = parameterOne => {};
+
+// Multiple parameters
+
+const functionName = (parameterOne, parameterTwo) => {};
