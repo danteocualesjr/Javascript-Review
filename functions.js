@@ -148,3 +148,11 @@ const logCitySkyline = () => {
   console.log(logCitySkyline());
 }
 
+// Creating a function and then calling it
+
+const companyName = () => {
+  let name = 'Stripe';
+  console.log(name);
+}
+
+companyName();
