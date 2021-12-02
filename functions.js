@@ -171,3 +171,12 @@ console.log(callMyNightSky());
 
 // Another example
 
+let myName = 'Dante';
+let myJob = 'Blockchain Developer';
+let myCompany = 'Stripe';
+
+const myProfile = () => {
+  return `Hi, my name is ${myName} and I\'m a ${myJob} from ${myCompany}.`;
+}
+
+console.log(myProfile());
