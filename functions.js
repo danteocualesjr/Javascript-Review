@@ -189,3 +189,13 @@ const logSkyColor = () => {
 };
 
 logSkyColor(); 
+
+// Block scope: calling a variable outside the block
+
+const logVisibleLightWaves = () => {
+  const lightWaves = 'Moonlight';
+  console.log(lightWaves);
+};
+
+logVisibleLightWaves();
+console.log(lightWaves);
