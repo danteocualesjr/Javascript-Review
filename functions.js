@@ -180,3 +180,12 @@ const myProfile = () => {
 }
 
 console.log(myProfile());
+
+// Block scope
+
+const logSkyColor = () => {
+  let color = 'blue';
+  console.log(color);
+};
+
+logSkyColor(); 
