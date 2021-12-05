@@ -29,3 +29,9 @@ const listItem = famousSayings[0];
 console.log(listItem);
 console.log(famousSayings[2]);
 console.log(famousSayings[3])
+
+// Updating elements in an array
+
+let groceryList = ['bread', 'tomatoes', 'milk'];
+
+groceryList[1] = 'avocados';
