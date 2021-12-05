@@ -50,9 +50,18 @@ condiments = ['Mayo'];
 utensils[3] = 'Spoon';
 console.log(utensils);
 
-// The .length array
+// The .length property
 
 const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
 
 console.log(objectives.length);
 
+// The .push() method;
+
+const booksRead = ['Book 1', 'Book 2', 'Book3'];
+
+console.log(booksRead);
+
+booksRead.push('Book 3', 'Book 4');
+
+console.log(booksRead);
