@@ -56,7 +56,7 @@ const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
 
 console.log(objectives.length);
 
-// The .push() method;
+// The .push() method
 
 const booksRead = ['Book 1', 'Book 2', 'Book3'];
 
@@ -65,3 +65,11 @@ console.log(booksRead);
 booksRead.push('Book 3', 'Book 4');
 
 console.log(booksRead);
+
+// Another example
+
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+
+chores.push('cook breakfast', 'sweep room');
+
+console.log(chores);
