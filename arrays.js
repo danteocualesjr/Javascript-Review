@@ -60,8 +60,6 @@ console.log(objectives.length);
 
 const booksRead = ['Book 1', 'Book 2', 'Book3'];
 
-console.log(booksRead);
-
 booksRead.push('Book 3', 'Book 4');
 
 console.log(booksRead);
@@ -73,3 +71,30 @@ const chores = ['wash dishes', 'do laundry', 'take out trash'];
 chores.push('cook breakfast', 'sweep room');
 
 console.log(chores);
+
+// The .pop() method
+
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+
+chores.pop();
+console.log(chores);
+
+// More array methods
+
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+groceryList.shift();
+
+// console.log(groceryList);
+
+groceryList.unshift('popcorn');
+
+// console.log(groceryList);
+
+// console.log(groceryList.slice(1, 4));
+
+// console.log(groceryList);
+
+const pastaIndex = groceryList.indexOf('pasta');
+
+console.log(pastaIndex);
