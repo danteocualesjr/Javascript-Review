@@ -19,3 +19,13 @@ console.log(hobbies[2]);
 const greeting = 'Hai';
 
 console.log(greeting[1]);
+
+// Accessing elements in an array
+
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+
+const listItem = famousSayings[0];
+
+console.log(listItem);
+console.log(famousSayings[2]);
+console.log(famousSayings[3])
