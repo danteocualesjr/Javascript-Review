@@ -119,3 +119,7 @@ removeElement(concept);
 
 console.log(concept);
 
+// Nested arrays
+
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
+
