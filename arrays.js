@@ -123,3 +123,8 @@ console.log(concept);
 
 const numberClusters = [[1, 2], [3, 4], [5, 6]];
 
+// Creating nested arrays and accessing elements in those arrays
+
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
+
+const target = numberClusters[2][1];
