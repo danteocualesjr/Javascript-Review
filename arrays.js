@@ -128,3 +128,10 @@ const numberClusters = [[1, 2], [3, 4], [5, 6]];
 const numberClusters = [[1, 2], [3, 4], [5, 6]];
 
 const target = numberClusters[2][1];
+
+// Creating nested arrays of random companies, accessing particular elements, and then logging them
+
+const randomCompanies = [['Stripe', 'Notion'], ['Space X'], ['BloomTech', 'Vercel']];
+
+const faveCompanies = randomCompanies[1][0];
+console.log(faveCompanies);
