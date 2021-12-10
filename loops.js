@@ -11,3 +11,9 @@ console.log(vacationSpots[2]);
 for (let counter = 0; counter <11; counter++) {
     console.log(counter);
   }
+
+  // For loop example
+
+  for (let counter = 100; counter > 1; counter--) {
+    console.log(counter);
+  }
