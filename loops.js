@@ -33,3 +33,14 @@ const cualesFamily = ['Mommy', 'Daddy', 'Ahia', 'Shobe'];
 for (let i = 0; i < cualesFamily.length; i++) {
   console.log(cualesFamily[i]);
 }
+
+// Another example of looping through arrays
+
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+// Write your code below
+
+for (let i = 0; i < vacationSpots.length; i++) {
+  console.log('I would love to visit ' + vacationSpots[i]);
+}
+
