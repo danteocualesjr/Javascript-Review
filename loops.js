@@ -25,3 +25,11 @@ for (let counter = 0; counter <11; counter++) {
   for (let counter = 3; counter >= 0; counter--){
   console.log(counter);
 }
+
+// Looping through arrays
+
+const cualesFamily = ['Mommy', 'Daddy', 'Ahia', 'Shobe'];
+
+for (let i = 0; i < cualesFamily.length; i++) {
+  console.log(cualesFamily[i]);
+}
