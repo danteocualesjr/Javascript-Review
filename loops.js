@@ -52,3 +52,11 @@ for (let i = 0; i < cryptoCurrencies.length; i++) {
   console.log(cryptoCurrencies[i]);
 }
 
+// Another example
+
+const cryptoCompanies = ['a16z', 'buildspace', 'makerDao'];
+
+for (let i = 0; i < cryptoCompanies.length; i++) {
+  console.log(cryptoCompanies[i]);
+}
+
