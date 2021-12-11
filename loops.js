@@ -44,3 +44,11 @@ for (let i = 0; i < vacationSpots.length; i++) {
   console.log('I would love to visit ' + vacationSpots[i]);
 }
 
+// Another example of looping through arrays
+
+const cryptoCurrencies = ['Ether', 'Bitcoin', 'Shibu'];
+
+for (let i = 0; i < cryptoCurrencies.length; i++) {
+  console.log(cryptoCurrencies[i]);
+}
+
