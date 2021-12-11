@@ -60,3 +60,10 @@ for (let i = 0; i < cryptoCompanies.length; i++) {
   console.log(cryptoCompanies[i]);
 }
 
+// Another example
+
+const cryptoTopics = ['Defi', 'DeX', 'Dao', "Dapp" ];
+
+for (let i = 0; i < cryptoTopics.length; i++) {
+  console.log(cryptoTopics[i]);
+}
