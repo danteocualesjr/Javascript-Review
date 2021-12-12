@@ -67,3 +67,12 @@ const cryptoTopics = ['Defi', 'DeX', 'Dao', "Dapp" ];
 for (let i = 0; i < cryptoTopics.length; i++) {
   console.log(cryptoTopics[i]);
 }
+
+// Another example
+
+const web3Req = ['JavaScript', 'React', 'Solidity'];
+
+for (let i = 0; i < web3Req.length; i++) {
+  console.log(web3Req[i]);
+}
+
