@@ -89,3 +89,11 @@ for (let i = 0; i < bobsFollowers.length; i++) {
       mutualFollowers.push(bobsFollowers[i]);                        
   }
 }
+
+// While loop
+
+let counter = 1;
+while (counter < 34) {
+  console.log(counter);
+  counter++
+}
