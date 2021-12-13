@@ -124,3 +124,12 @@ do {
 while (true === false){
   console.log(secondMessage)
 };
+
+// Example of do while loop
+
+let cupsOfSugarNeeded = 3;
+let cupsAdded = 0;
+
+do {
+  console.log(cupsAdded++);
+} while (cupsAdded < cupsOfSugarNeeded);
