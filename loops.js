@@ -147,3 +147,11 @@ for (let i = 0; i < rapperArray.length; i++) {
 }
 
 console.log('And if you don\'t know, now you know.');
+
+// Loop review
+
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+for (i = 0; i < groceryList.length; i++) {
+  console.log(groceryList[i]);
+}
