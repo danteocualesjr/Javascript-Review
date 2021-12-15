@@ -56,3 +56,14 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   founder.forEach(founder => {
     console.log(founder + 'is one of my favorite founders.');
   });
+
+  // ITERATORS -- .map
+
+
+  const numbers = [1, 2, 3, 4, 5];
+  
+  const squareNumbers = numbers.map(number => {
+    return number * number;
+  });
+
+  console.log(squareNumbers);
