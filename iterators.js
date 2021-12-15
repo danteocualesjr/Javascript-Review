@@ -48,3 +48,11 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   };
   
   checkConsistentOutput(addTwo, 10);  
+
+  // ITERATORS -- forEach
+
+  const founder = ['Collisons', 'Musk', 'Sam Altman'];
+
+  founder.forEach(founder => {
+    console.log(founder + 'is one of my favorite founders.');
+  });
