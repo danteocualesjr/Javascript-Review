@@ -57,6 +57,14 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
     console.log(founder + 'is one of my favorite founders.');
   });
 
+  // Another example
+
+  const colleagues = ['Cynthia McGillis', 'Tommy Collison', 'Zoe Ludwig', 'Kevin Morrill'];
+
+  colleagues.forEach(colleagues => {
+    console.log(colleagues + 'is a colleague of mine.');
+  });
+
   // ITERATORS -- .map
 
 
