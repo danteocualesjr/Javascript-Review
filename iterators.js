@@ -81,6 +81,15 @@ booksToRead.forEach(booksToRead => {
   console.log('I want to read this book:' + booksToRead);
 })
 
+// Yet another example
+
+const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+// Iterate over fruits below
+fruits.forEach(fruits => {
+  console.log('I want to eat a/an ' + fruits);
+});
+
   // ITERATORS -- .map
 
 
