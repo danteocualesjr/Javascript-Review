@@ -73,6 +73,14 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
     console.log(placesToTravel + 'are the places I want to visit after the pandemic');
   });
 
+// Another example
+
+const booksToRead = ['Sense and Sensibility', 'Emma', 'The History of Sir Charles Grandison'];
+
+booksToRead.forEach(booksToRead => {
+  console.log('I want to read this book:' + booksToRead);
+})
+
   // ITERATORS -- .map
 
 
