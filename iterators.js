@@ -65,6 +65,14 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
     console.log(colleagues + 'is a colleague of mine.');
   });
 
+  // Another example
+
+  const placesToTravel = ['London', 'New York', 'Switzerland', 'Austria', 'San Francisco'];
+
+  placesToTravel.forEach(placesToTravel => {
+    console.log(placesToTravel + 'are the places I want to visit after the pandemic');
+  });
+
   // ITERATORS -- .map
 
 
@@ -75,3 +83,5 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   });
 
   console.log(squareNumbers);
+
+  
