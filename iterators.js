@@ -62,7 +62,7 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   const colleagues = ['Cynthia McGillis', 'Tommy Collison', 'Zoe Ludwig', 'Kevin Morrill'];
 
   colleagues.forEach(colleagues => {
-    console.log(colleagues + 'is a colleague of mine.');
+    console.log(colleagues + ' is a colleague of mine.');
   });
 
   // Another example
@@ -90,7 +90,7 @@ fruits.forEach(fruits => {
   console.log('I want to eat a/an ' + fruits);
 });
 
-  // ITERATORS -- .map
+  // ITERATORS -- .map()
 
 
   const numbers = [1, 2, 3, 4, 5];
@@ -101,4 +101,22 @@ fruits.forEach(fruits => {
 
   console.log(squareNumbers);
 
-  
+  // More examples of the .map() method
+
+  const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+
+// Create the secretMessage array below
+const secretMessage = animals.map(animals => {
+  return animals[0];  
+});
+
+console.log(secretMessage.join(''));
+
+const bigNumbers = [100, 200, 300, 400, 500];
+
+// Create the smallNumbers array below
+const smallNumbers = bigNumbers.map(bigNumbers => {
+  return bigNumbers / 100;
+});
+
+console.log(smallNumbers);
