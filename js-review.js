@@ -109,6 +109,11 @@ lostDollar--;
 let favoriteAnimal = 'dog';
 console.log('My favorite animal: ' + favoriteAnimal);
 
+// String concatenation
+
+let favoriteBook = 'Pride and Prejudice';
+console.log('My favorite book is: ' + favoriteBook);
+
 // STRING INTERPOLATION
 
 let myName = 'Dante';
