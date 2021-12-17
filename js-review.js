@@ -114,6 +114,11 @@ console.log('My favorite animal: ' + favoriteAnimal);
 let favoriteBook = 'Pride and Prejudice';
 console.log('My favorite book is: ' + favoriteBook);
 
+// String concat
+
+let favoriteFilm = 'Sound of Music';
+console.log('My favorite film is: ' + favoriteFilm);
+
 // STRING INTERPOLATION
 
 let myName = 'Dante';
