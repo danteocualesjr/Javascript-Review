@@ -166,6 +166,15 @@ const companyName2 = () => {
 
 companyName2();
 
+// Another example
+
+const jobTitle = () => {
+  let name = 'Blockchain Developer';
+  console.log(name);
+}
+
+jobTitle();
+
 // Global Scope
 
 let satellite = 'The Moon';
