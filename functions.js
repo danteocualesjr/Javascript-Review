@@ -124,11 +124,15 @@ const functionName = () => {};
 
 // One parameter
 
-const functionName = parameterOne => {};
+const functionName2 = parameterOne => {};
 
 // Multiple parameters
 
-const functionName = (parameterOne, parameterTwo) => {};
+const functionName3 = (parameterOne, parameterTwo) => {};
+
+// Multiple parameters
+
+const functionName4 = (first, second, thiird) => {};
 
 // Refactoring an arrow function into a single line
 
