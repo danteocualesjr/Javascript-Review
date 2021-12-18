@@ -157,6 +157,15 @@ const companyName = () => {
 
 companyName();
 
+// Another example
+
+const companyName2 = () => {
+  let name = 'Notion';
+  console.log(name);
+}
+
+companyName2();
+
 // Global Scope
 
 let satellite = 'The Moon';
