@@ -120,3 +120,14 @@ const smallNumbers = bigNumbers.map(bigNumbers => {
 });
 
 console.log(smallNumbers);
+
+// The .filter() method
+
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+
+// Call .filter() on randomNumbers below
+const smallNumbers = randomNumbers.filter(num => {
+  return num < 250;
+})
+
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
