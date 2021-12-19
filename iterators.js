@@ -211,3 +211,29 @@ const smallerNums = nums.map(num => num - 5);
 
 // Choose a method that will return a boolean value
 nums.some(num => num < 0);
+
+/* 
+
+Summary: The common iterators/methods:
+
+.forEach()
+
+.map()
+
+.filter()
+
+.findIndex()
+
+.reduce()
+
+*/
+
+// More exercises below:
+
+// .forEach()
+
+const austensBooks = ['Sense and Sensibility', 'Pride and Prejudice', 'Northanger Abbey'];
+
+austensBooks.forEach(austensBooks => {
+  console.log(`I have read ${austensBooks}`);
+});
