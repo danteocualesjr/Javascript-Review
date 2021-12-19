@@ -131,3 +131,13 @@ const smallNumbers = randomNumbers.filter(num => {
 })
 
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+// Call .filter() on smallNumbers below
+
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+
+// Call .filter() on favoriteWords below
+const longFavoriteWords = favoriteWords.filter(word => {
+  return word.length > 7;
+});
