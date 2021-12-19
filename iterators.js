@@ -90,20 +90,20 @@ fruits.forEach(fruits => {
   console.log('I want to eat a/an ' + fruits);
 });
 
-  // ITERATORS -- .map()
+// ITERATORS -- .map()
 
 
-  const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
   
-  const squareNumbers = numbers.map(number => {
+const squareNumbers = numbers.map(number => {
     return number * number;
   });
 
-  console.log(squareNumbers);
+console.log(squareNumbers);
 
   // More examples of the .map() method
 
-  const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
 // Create the secretMessage array below
 const secretMessage = animals.map(animals => {
@@ -237,3 +237,21 @@ const austensBooks = ['Sense and Sensibility', 'Pride and Prejudice', 'Northange
 austensBooks.forEach(austensBooks => {
   console.log(`I have read ${austensBooks}`);
 });
+
+// 
+
+const myAssets = ['Eth', 'Bitcoin', 'Real Estates', 'Mutual Funds', 'Startups'];
+
+myAssets.forEach(myAssets => {
+  console.log('I own ' + myAssets);
+});
+
+// .map()
+
+const numbers = [1, 2, 3, 4, 5];
+  
+const addNumbers = numbers.map(num => {
+    return num + num;
+  });
+
+console.log(addNumbers);
