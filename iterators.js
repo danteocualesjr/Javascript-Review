@@ -128,7 +128,7 @@ const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 // Call .filter() on randomNumbers below
 const smallNumbers = randomNumbers.filter(num => {
   return num < 250;
-})
+});
 
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 
@@ -255,3 +255,26 @@ const addNumbers = numbers.map(num => {
   });
 
 console.log(addNumbers);
+
+// .filter()
+
+const randomNum = [333, 512, 24, 73, 2500, 88, 5, 0.23, 85.2];
+
+// Call .filter() on randomNumbers below
+const largeNum = randomNum.filter(num => {
+  return num > 100;
+});
+
+console.log(largeNum);
+
+// .reduce()
+
+const ranNumbers = [23, 333, 5, 70, 1, 8, 0, 45, 103];
+
+const newSum = ranNumbers.reduce((accumulator, currentValue) => {
+  console.log('The value of accumulator: ' + accumulator);
+  console.log('The value of currentValue: ' + currentValue);
+  return accumulator + currentValue;
+}, 33);
+
+console.log(newSum);
