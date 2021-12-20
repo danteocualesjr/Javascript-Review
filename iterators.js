@@ -246,6 +246,14 @@ myAssets.forEach(myAssets => {
   console.log('I own ' + myAssets);
 });
 
+//
+
+const faveFilms = ['It\'s a Wonderful Life', 'Sound of Music', 'Pride and Prejudice'];
+
+faveFilms.forEach(faveFilms => {
+  console.log(`My favorite film is ${faveFilms}.`);
+});
+
 // .map()
 
 const numbers = [1, 2, 3, 4, 5];
