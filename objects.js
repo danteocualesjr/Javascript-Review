@@ -32,23 +32,33 @@ let spaceship = {
     numCrew: 5
    };
   
-  let propName =  'Active Mission';
+let propName =  'Active Mission';
   
-  // Write your code below
-  let isActive = spaceship['Active Mission'];
+// Write your code below
+let isActive = spaceship['Active Mission'];
   
-  console.log(spaceship[propName]);
+console.log(spaceship[propName]);
 
-  // Property assignments in objects
+// Property assignments in objects
 
-  let spaceship = {
-    'Fuel Type' : 'Turbo Fuel',
-    homePlanet : 'Earth',
-    color: 'silver',
-    'Secret Mission' : 'Discover life outside of Earth.'
-  };
+let spaceship = {
+  'Fuel Type' : 'Turbo Fuel',
+  homePlanet : 'Earth',
+  color: 'silver',
+  'Secret Mission' : 'Discover life outside of Earth.'
+};
   
-  // Write your code below
-  spaceship.color = 'glorious gold';
-  spaceship.numEngines = 3;
-  delete spaceship['Secret Mission'];
+// Write your code below
+spaceship.color = 'glorious gold';
+spaceship.numEngines = 3;
+delete spaceship['Secret Mission'];
+
+// Object example
+
+let myProfile = {
+  Profession : 'Crypto Startup Founder',
+  'Net Worth' : '3 Billion Dollars',
+  Location: 'London'
+};
+
+console.log(myProfile['Net Worth']);
