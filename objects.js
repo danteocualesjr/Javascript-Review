@@ -119,3 +119,24 @@ let spaceship = {
 
 let capFave = spaceship.crew.captain['favorite foods'][0];
 let firstPassenger = spaceship.passengers[0];
+
+// Passing objects by reference
+
+let spaceship = {
+  'Fuel Type' : 'Turbo Fuel',
+  homePlanet : 'Earth'
+};
+
+// Write your code below
+let greenEnergy = obj => {
+  obj['Fuel Type'] = 'avocado oil';
+};
+
+let remotelyDisable = obj => {
+  obj.disabled = true;
+};
+
+greenEnergy(spaceship);
+remotelyDisable(spaceship);
+console.log(spaceship);
+
