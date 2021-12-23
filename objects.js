@@ -9,6 +9,12 @@ let fasterShip = {
     color: 'silver'
   };
 
+// 
+
+let web3 = {
+  topics : ['DAO', 'DeFi', 'DEX', 'NFTs']
+};
+
 // Accessing properties: dot notation
 
 let spaceship = {
