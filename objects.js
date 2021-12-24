@@ -195,10 +195,13 @@ const cryptoStartupFounder = {
   'net worth' : '$1 billion',
   faveLine() {
     return `Let\'s get it done!!!`;
+  },
+  elevPitch() {
+    return `Hi, I\'m ${this.name} and I\'m the founder of ${this.startup}.`;
   }
 };
 
-console.log(cryptoStartupFounder.faveLine());
+console.log(cryptoStartupFounder.elevPitch());
 
 
 // Arrow functions and this
