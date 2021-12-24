@@ -185,6 +185,19 @@ const robot = {
   }
 };
 
+//
+
+const cryptoStartupFounder = {
+  name : 'dante cuales',
+  startup : 'AmazeDAO',
+  'net worth' : '$1 billion',
+  faveLine() {
+    console.log(`Let\'s get it done!!!`);
+  }
+};
+
+console.log(cryptoStartupFounder.faveLine());
+
 console.log(robot.provideInfo());
 
 // Arrow functions and this
