@@ -203,6 +203,19 @@ const cryptoStartupFounder = {
 
 console.log(cryptoStartupFounder.elevPitch());
 
+//
+
+const cualesFamily = {
+  father : 'daddy',
+  mother : 'mommy',
+  son : 'luke',
+  daughter : 'lizzy',
+  greeting() {
+    return `Hi, we are the Cuales Family! ${father}, ${mother}, ${son}, and ${daughter}.`;
+  }
+}
+
+console.log(cualesFamily.greeting());
 
 // Arrow functions and this
 
