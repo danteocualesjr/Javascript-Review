@@ -250,3 +250,17 @@ const dao = {
 }
 
 dao.tagline();
+
+// 
+
+const founderProfile = {
+  name : 'dante',
+  age : '40',
+  netWorth : '10000 eth',
+  location : 'new york, san francisco, london, philippines',
+  greeting () {
+    console.log(`Hi my name is ${this.name}, I'm ${this.age}, and I'm from ${this.location}. And oh, in case you're wondering, my networth is ${this.netWorth}.`);
+  }
+}
+
+console.log(founderProfile.greeting());
