@@ -272,6 +272,17 @@ const booksToRead = {
   author: 'Jane Austen',
   genre : 'Classical Fiction',
   callToAction () {
-    console.log('Time to read ${title} by ${author} (${genre}).');
+    console.log(`Time to read ${title} by ${author} (${genre}).`);
+  }
+}
+
+//
+
+const newYearsResolution = {
+  todo : '',
+  reason : '',
+  timeframe : '',
+  reminder () {
+    console.log(`Time to do ${todo} because ${reason} during ${timeframe}.`);
   }
 }
