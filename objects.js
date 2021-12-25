@@ -220,10 +220,21 @@ console.log(cualesFamily.greeting());
 // Arrow functions and this
 
 const robot = {
-  energyLevel: 100,
+  energyLevel : 100,
   checkEnergy () {
-    console.log(`Energy is currently at ${this.energyLevel}%.`)
+    console.log(`Energy is currently at ${this.energyLevel}.`)
   }
 }
 
 robot.checkEnergy();
+
+//
+
+const nft = {
+  value : 100 eth,
+  call () {
+    console.log('Wagmi!');
+  }
+}
+
+nft.call();
