@@ -231,10 +231,22 @@ robot.checkEnergy();
 //
 
 const nft = {
-  value : 100 eth,
+  value : '100 eth',
   call () {
     console.log('Wagmi!');
   }
 }
 
 nft.call();
+
+//
+
+const dao = {
+  name : 'makerDAO',
+  valuation : 33000000,
+  tagline () {
+    console.log(`We're gonna make it!`);
+  }
+}
+
+dao.tagline();
