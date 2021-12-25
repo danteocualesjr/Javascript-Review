@@ -264,3 +264,14 @@ const founderProfile = {
 }
 
 console.log(founderProfile.greeting());
+
+// 
+
+const booksToRead = {
+  title : 'Sense and Sensibility',
+  author: 'Jane Austen',
+  genre : 'Classical Fiction',
+  callToAction () {
+    console.log('Time to read ${title} by ${author} (${genre}).');
+  }
+}
