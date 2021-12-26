@@ -286,3 +286,14 @@ const newYearsResolution = {
     console.log(`Time to do ${this.todo} because ${this.reason} during ${this.timeframe}.`);
   }
 }
+
+//
+
+const testObject - {
+  feature_1 : 'test 1',
+  feature_2 : 'test 2',
+  method_1 () {
+    return `This is a method.`;
+  }
+}
+
