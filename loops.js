@@ -155,3 +155,11 @@ let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pas
 for (i = 0; i < groceryList.length; i++) {
   console.log(groceryList[i]);
 }
+
+//
+
+let web3Topics = ['blockchain', 'bitcoin', 'ethereum', 'defi', 'dao', 'nft', 'dex'];
+
+for (i = 0; < web3Topics.length; i++) {
+  console.log(web3Topics[i]);
+};
