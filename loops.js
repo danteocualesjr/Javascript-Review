@@ -160,6 +160,6 @@ for (i = 0; i < groceryList.length; i++) {
 
 let web3Topics = ['blockchain', 'bitcoin', 'ethereum', 'defi', 'dao', 'nft', 'dex'];
 
-for (i = 0; < web3Topics.length; i++) {
+for (i = 0; i < web3Topics.length; i++) {
   console.log(web3Topics[i]);
 };
