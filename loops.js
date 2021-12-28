@@ -70,7 +70,7 @@ for (let i = 0; i < cryptoTopics.length; i++) {
 
 // Another example
 
-const web3Req = ['JavaScript', 'React', 'Solidity'];
+const web3PreReq = ['JavaScript', 'React', 'Solidity', 'Python'];
 
 for (let i = 0; i < web3Req.length; i++) {
   console.log(web3Req[i]);
