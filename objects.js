@@ -289,7 +289,7 @@ const newYearsResolution = {
 
 //
 
-const testObject - {
+const testObject = {
   feature_1 : 'test 1',
   feature_2 : 'test 2',
   method_1 () {
