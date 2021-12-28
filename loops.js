@@ -62,7 +62,7 @@ for (let i = 0; i < cryptoCompanies.length; i++) {
 
 // Another example
 
-const cryptoTopics = ['Defi', 'DeX', 'Dao', "Dapp" ];
+const cryptoTopics = ['Blockchain', 'Bitcoin', 'Ethereum', 'Crypto Currencies', 'Solidity', 'DeFi', 'DeX', 'Dao', 'dApps', 'Gaming', 'Crypto Startups'];
 
 for (let i = 0; i < cryptoTopics.length; i++) {
   console.log(cryptoTopics[i]);
