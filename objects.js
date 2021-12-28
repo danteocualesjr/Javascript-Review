@@ -297,3 +297,17 @@ const testObject = {
   }
 }
 
+//
+
+const planOfLife = {
+  first : 'morning offering',
+  second : 'prayer for holy purity',
+  third : 'angelus',
+  fourth : 'rosary',
+  finalPrayer () {
+    console.log('Holy Mary, our hope and seat of wisdom, pray for us. Amen.');
+  }
+}
+
+
+
