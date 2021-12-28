@@ -304,6 +304,7 @@ const planOfLife = {
   second : 'prayer for holy purity',
   third : 'angelus',
   fourth : 'rosary',
+  fifth : 'examination of conscience',
   finalPrayer () {
     console.log('Holy Mary, our hope and seat of wisdom, pray for us. Amen.');
   }
