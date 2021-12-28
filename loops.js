@@ -95,7 +95,15 @@ for (let i = 0; i < bobsFollowers.length; i++) {
 let counter = 1;
 while (counter < 34) {
   console.log(counter);
-  counter++
+  counter++;
+}
+
+//
+
+let counter = 3;
+while (counter < 333) {
+  console.log(counter);
+  counter++;
 }
 
 // Another while loop example
