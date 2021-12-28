@@ -124,7 +124,8 @@ let firstPassenger = spaceship.passengers[0];
 
 let spaceship = {
   'Fuel Type' : 'Turbo Fuel',
-  homePlanet : 'Earth'
+  homePlanet : 'Earth',
+  company : 'Space X'
 };
 
 // Write your code below
@@ -309,6 +310,10 @@ const planOfLife = {
     console.log('Holy Mary, our hope and seat of wisdom, pray for us. Amen.');
   }
 }
+
+// Privacy
+
+
 
 
 
