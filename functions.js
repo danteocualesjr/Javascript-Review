@@ -52,6 +52,14 @@ function myJob(job) {
 
 myJob('Blockchain Developer');
 
+// 
+
+function myPassion(hobby) {
+  console.log(`My passion is ${hobby}`);
+}
+
+myPassion(`Web3 Development`);
+
 // Default parameters
 
 function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs'){
