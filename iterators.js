@@ -254,6 +254,14 @@ faveFilms.forEach(faveFilms => {
   console.log(`My favorite film is ${faveFilms}.`);
 });
 
+//
+
+const faveApps = ['Spotify', 'Slack', 'Discord'];
+
+faveApps.forEach(faveApps => {
+  console.log(`My favorite app is ${faveApps}.`);
+})
+
 // .map()
 
 const numbers = [1, 2, 3, 4, 5];
