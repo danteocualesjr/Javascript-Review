@@ -62,10 +62,11 @@ myPassion(`Web3 Development`);
 
 // Default parameters
 
-function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs'){
+function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs', item4 ='coffee'){
   console.log(`Remember to buy ${item1}`);
   console.log(`Remember to buy ${item2}`);
   console.log(`Remember to buy ${item3}`);
+  console.log(`Remember to buy ${item4}`);
 }
 
 makeShoppingList(); // The default values will be logged
