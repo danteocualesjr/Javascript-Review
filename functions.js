@@ -4,9 +4,19 @@ function getReminder() {
   console.log('Water the plants.');
 }
 
+//
+
 function greetInSpanish() {
   console.log('Buenas Tardes.');
 }
+
+//
+
+function alarmClock() {
+  console.log('WAKE UP!!!');
+}
+
+alarmClock();
 
 // Calling the functions
 
