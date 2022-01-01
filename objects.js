@@ -336,6 +336,6 @@ const robot = {
       return 'System malfunction: cannot retrieve energy level';
     }
   }
-};
+}
 
-console.log(robot.energylevel);
+console.log(robot.energyLevel);
