@@ -142,3 +142,9 @@ const newYearsResolution = [['Write a book', 'Publish said book'], ['Learn Web3 
 
 const whatIWillDoIn2022 = newYearsResolution[0][2];
 console.log(whatIWillDoIn2022);
+
+//
+
+const web3Roadmap = ['Review JavaScript', 'Review React', 'Learn Solidity', 'Start building dApps', 'Learn DeFIs, DAOs, DEXes, and NFTs']
+
+console.log(web3Roadmap);
