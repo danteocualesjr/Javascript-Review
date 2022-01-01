@@ -135,3 +135,10 @@ const randomCompanies = [['Stripe', 'Notion'], ['Space X'], ['BloomTech', 'Verce
 
 const faveCompanies = randomCompanies[1][0];
 console.log(faveCompanies);
+
+//
+
+const newYearsResolution = [['Write a book', 'Publish said book'], ['Learn Web3 development', 'Become a Web3 developer', 'Start a crypto startup'], ['Travel to London, Paris, and Austria']];
+
+const whatIWillDoIn2022 = newYearsResolution[0][2];
+console.log(whatIWillDoIn2022);
