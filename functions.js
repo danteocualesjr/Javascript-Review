@@ -16,13 +16,21 @@ function alarmClock() {
   console.log('WAKE UP!!!');
 }
 
-alarmClock();
+// 
+
+function happyNewYear() {
+  console.log(`Happy New Year!`);
+}
 
 // Calling the functions
 
 getReminder();
 
 greetInSpanish();
+
+alarmClock();
+
+happyNewYear();
 
 // Creating and calling another function
 
