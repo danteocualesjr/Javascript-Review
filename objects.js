@@ -60,7 +60,7 @@ delete spaceship['Secret Mission'];
 let myProfile = {
   Profession : 'Crypto Startup Founder',
   'Net Worth' : '3 Billion Dollars',
-  Location: 'London'
+  Location: 'London, New York, San Francisco'
 };
 
 console.log(myProfile['Net Worth']);
