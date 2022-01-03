@@ -366,3 +366,23 @@ const robot = {
 
 robot.numOfSensors = 100;
 console.log(robot.numOfSensors);
+
+// Factory functions
+
+const robotFactory = (name, model, mobile) => {
+  return {
+    name: name,
+    model : model,
+    mobile : mobile,
+    beep() {
+      console.log('Beep Boop')
+    }
+  }
+};
+
+const tinCan = robotFactory('Tin Can', 'P-500', true);
+const redRust = robotFactory('Red Rust', 'C-333', true);
+
+console.log(tinCan);
+// tinCan.beep();
+console.log(redRust);
