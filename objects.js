@@ -16,6 +16,7 @@ let spaceship = {
     color: 'silver',
     'Fuel Type': 'Turbo Fuel',
     numCrew: 5,
+    captain: 'Von Trapp',
     flightPath: ['Venus', 'Mars', 'Saturn']
 };
   
