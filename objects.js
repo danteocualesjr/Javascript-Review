@@ -382,10 +382,12 @@ const robotFactory = (name, model, mobile) => {
 
 const tinCan = robotFactory('Tin Can', 'P-500', true);
 const redRust = robotFactory('Red Rust', 'C-333', true);
+const blueFlame = robotFactory('Blue Flame', '0-50', true);
 
 console.log(tinCan);
 // tinCan.beep();
 console.log(redRust);
+console.log(blueFlame);
 
 // Property value shorthand
 
