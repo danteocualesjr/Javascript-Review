@@ -12,6 +12,12 @@ function greetInSpanish() {
 
 //
 
+function greetInEnglish() {
+  console.log('Hey there');
+}
+
+//
+
 function alarmClock() {
   console.log('WAKE UP!!!');
 }
