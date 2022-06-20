@@ -31,7 +31,6 @@ function happyNewYear() {
 // Calling the functions
 
 getReminder();
-
 greetInSpanish();
 
 alarmClock();
