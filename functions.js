@@ -32,7 +32,6 @@ function happyNewYear() {
 
 getReminder();
 greetInSpanish();
-
 alarmClock();
 
 happyNewYear();
